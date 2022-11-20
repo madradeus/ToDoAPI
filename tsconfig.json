@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES6",
+    "downlevelIteration": true,
+    "lib": ["es6", "dom.iterable"],
+    "outDir": "dist",
+    "experimentalDecorators": true, // te dwie rzeczy niezbędne do dekoratorów
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node"
+  }
+}
